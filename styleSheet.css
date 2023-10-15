@@ -1,0 +1,71 @@
+
+/* Set the background color */
+body {
+  background-color: #FFFFFF;
+  }
+
+/* This is how links will look when untouched */
+a:link {
+  color: #0000ff;
+  text-decoration: none;
+  }
+
+/* This is how links look when hovered over with the mouse */
+a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+  }
+
+/* This is how links look when clicked */
+a:active {
+  color: #ffffff;
+  text-decoration: underline overline;
+  }
+
+/* This is how links look after they're clicked */
+a:visited {
+  color: #800080;
+  text-decoration:underline;
+  }
+
+div.head1 {
+  text-align:left;
+  font-family: "Myriad Pro", Arial, Sans-Serif;  
+  font-size: 48px; 
+  }
+
+div.text {
+  font-family: "Myriad Pro", Arial, Sans-Serif;  
+  }
+
+div.center {
+  text-align:center; 
+  font-family: "Myriad Pro", Arial, Sans-Serif;  
+  }
+
+div.photo1 {
+  float:right;
+  width:302px;
+  height:389px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  }
+
+img.photoLink {
+  float:right;
+  width:126px;
+  height:108px;
+  margin-right: 1em;
+  }
+
+table { 
+  margin: auto;
+  } 
+  
+/* This gives all cells of a table a border, and centers the text */
+td {
+  border: 3px #000000;
+  text-align: left;
+  vertical-align: middle;
+  }
